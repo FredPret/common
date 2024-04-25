@@ -1,8 +1,6 @@
 import time
 import sys
 
-# submodule test
-
 def rate_limiter(maxPerSecond):
     minInterval = 1.0 / float(maxPerSecond)
 
